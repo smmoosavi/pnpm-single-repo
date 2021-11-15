@@ -16,6 +16,7 @@
     "tsdoc-metadata.json"
   ],
   "scripts": {
+    "lint-staged": "lint-staged",
     "build": "libton-script build",
     "build:doc": "libton-script doc",
     "test": "libton-script test --coverage --verbose",

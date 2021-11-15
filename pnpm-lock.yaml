@@ -6,9 +6,11 @@ importers:
     specifiers:
       husky: ^7.0.4
       lint-staged: ^12.0.2
+      prettier: ^2.4.1
     devDependencies:
       husky: 7.0.4
       lint-staged: 12.0.2
+      prettier: 2.4.1
 
   apps/the-app:
     specifiers:
