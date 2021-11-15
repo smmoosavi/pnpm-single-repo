@@ -1,9 +1,7 @@
 import { FormatOutput } from 'format-output';
 
 function App() {
-  return (
-      <FormatOutput />
-  );
+  return <FormatOutput />;
 }
 
 export default App;

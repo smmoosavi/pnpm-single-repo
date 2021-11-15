@@ -1,5 +1,5 @@
-import { TheFormat } from "the-format";
-import React from 'react'
+import { TheFormat } from 'the-format';
+import React from 'react';
 
 /**
  * @public
