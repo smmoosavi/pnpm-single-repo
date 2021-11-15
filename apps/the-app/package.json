@@ -23,7 +23,8 @@
     "format:check": "prettier --check '**/*.{js,jsx,ts,tsx,json,yml,css,scss,md}'",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
+    "test:coverage": "react-scripts test --coverage --verbose --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

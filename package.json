@@ -6,13 +6,16 @@
   "scripts": {
     "prepare": "husky install",
     "lint-staged": "pnpm recursive run lint-staged",
-    "format": "pnpm recursive run format"
+    "format": "pnpm recursive run format",
+    "coverage:merge": "./scripts/merge-coverage.sh",
+    "test:coverage": "pnpm recursive run test:coverage && pnpm coverage:merge"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^12.0.2",
+    "nyc": "^15.1.0",
     "prettier": "^2.4.1"
   }
 }
