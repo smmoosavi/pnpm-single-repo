@@ -4,4 +4,4 @@
 
 - install `nodejs`
 - install `pnpm`
-- install `jo`
+- install `jq`, `jo`

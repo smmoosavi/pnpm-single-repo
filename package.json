@@ -7,6 +7,9 @@
     "prepare": "husky install",
     "lint-staged": "pnpm recursive run lint-staged",
     "format": "pnpm recursive run format",
+    "build:changed": "pnpm recursive $(./scripts/get-changed-filter.sh build) run build; ./scripts/set-changed.sh build",
+    "test:changed": "pnpm recursive $(./scripts/get-changed-filter.sh test) run test; ./scripts/set-changed.sh test",
+    "build:all": "pnpm recursive run build",
     "coverage:merge": "./scripts/merge-coverage.sh",
     "test:coverage": "pnpm recursive run test:coverage && pnpm coverage:merge"
   },
